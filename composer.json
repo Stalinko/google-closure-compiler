@@ -1,0 +1,6 @@
+{
+    "name": "stalinko/google-closure-compiler",
+    "description": "Latest build of Google Closure Compiler available for install via Composer",
+    "license": "MIT",
+    "require": {}
+}
