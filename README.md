@@ -12,6 +12,7 @@ which can be easily installed via Composer and added into your project on the fl
 I didn't change anything in the binary. All copyrights belong to Google.
 
 ## Installation
+[![Packagist](https://img.shields.io/packagist/v/stalinko/google-closure-compiler.svg)](https://packagist.org/packages/stalinko/google-closure-compiler)
 
 `composer require stalinko/google-closure-compiler`
 
@@ -24,7 +25,7 @@ Here is just a simple example:
 `java -jar vendor/stalinko/google-closure-compiler/compiler.jar --js hello.js --js_output_file hello-compiled.js`
 
 ## License
-This library packages the Closure Compiler from Google. The file `compiler.jar` is the result of 
+This library contains the Closure Compiler from Google. The file `compiler.jar` is the result of 
 unpacking the Google-supplied [Zip file](http://closure-compiler.googlecode.com/files/compiler-latest.zip).
 
 ## Feedback
